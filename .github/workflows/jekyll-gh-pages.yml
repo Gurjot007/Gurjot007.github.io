@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gurjot Singh | Digital Journalist & Producer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #0056b3;
+            --secondary-color: #333;
+            --bg-light: #f4f7f6;
+            --text-main: #444;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            color: var(--text-main);
+            background-color: var(--bg-light);
+        }
+
+        header {
+            background: #fff;
+            padding: 2rem 10%;
+            text-align: center;
+            border-bottom: 3px solid var(--primary-color);
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid var(--bg-light);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 20px;
+        }
+
+        section {
+            background: #fff;
+            padding: 2rem;
+            margin-bottom: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--bg-light);
+            padding-bottom: 0.5rem;
+        }
+
+        .job {
+            margin-bottom: 1.5rem;
+        }
+
+        .job-title {
+            font-weight: bold;
+            color: #000;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .company {
+            font-style: italic;
+            color: #666;
+        }
+
+        .skills-tag {
+            display: inline-block;
+            background: var(--primary-color);
+            color: #fff;
+            padding: 5px 15px;
+            border-radius: 20px;
+            margin: 5px;
+            font-size: 0.9rem;
+        }
+
+        .contact-links a {
+            margin: 0 10px;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            font-size: 0.9rem;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="profile-photo.jpg" alt="Gurjot Singh" class="profile-img">
+    [cite_start]<h1>Gurjot Singh</h1> [cite: 11]
+    <p>Producer at Collective Newsroom | [cite_start]Digital Journalist</p> [cite: 12, 14]
+    <div class="contact-links">
+        [cite_start]<a href="mailto:gurjotsingh077@gmail.com"><i class="fas fa-envelope"></i> Email</a> [cite: 2]
+        [cite_start]<a href="https://www.linkedin.com/in/gurjotsingh077" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a> [cite: 4]
+    </div>
+</header>
+
+<div class="container">
+    <section id="about">
+        <h2>Professional Summary</h2>
+        [cite_start]<p>Currently working as a Digital Journalist with BBC Punjabi in New Delhi[cite: 14]. [cite_start]I bring a unique perspective to storytelling, backed by a Master's degree in Conflict Analysis and Peacebuilding[cite: 15]. [cite_start]My experience spans across digital production, reporting, and hard-news coverage[cite: 6, 7, 8].</p>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        
+        <div class="job">
+            [cite_start]<div class="job-title">Producer <span>April 2024 - Present</span></div> [cite: 18, 19]
+            [cite_start]<div class="company">Collective Newsroom, Delhi</div> [cite: 17, 19]
+        </div>
+
+        <div class="job">
+            [cite_start]<div class="job-title">Digital Journalist <span>Oct 2023 - April 2024</span></div> [cite: 22, 23]
+            [cite_start]<div class="company">BBC News, Delhi</div> [cite: 20, 24]
+        </div>
+
+        <div class="job">
+            [cite_start]<div class="job-title">Staff Correspondent <span>April 2023 - July 2023</span></div> [cite: 30, 31]
+            [cite_start]<div class="company">Hindustan Times, Ludhiana</div> [cite: 28, 32]
+            <ul>
+                [cite_start]<li>Contributed news and special stories for HT[cite: 37].</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            [cite_start]<div class="job-title">Research Intern <span>Aug 2021 - Aug 2022</span></div> [cite: 40, 41]
+            [cite_start]<div class="company">NIICE Nepal</div> [cite: 39]
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <p><strong>Master of Arts: Peace Studies and Conflict Resolution</strong> (2020-2022)<br>
+        [cite_start]Jamia Millia Islamia [cite: 56, 57]</p>
+        
+        <p><strong>Bachelor of Arts: Social Sciences</strong> (2017-2020)<br>
+        [cite_start]Indira Gandhi National Open University [cite: 58, 59]</p>
+        
+        <p><strong>Diploma in Media Studies</strong> (2017-2018)<br>
+        [cite_start]Sikh Media Centre [cite: 60, 61]</p>
+    </section>
+
+    <section id="skills">
+        <h2>Top Skills</h2>
+        [cite_start]<span class="skills-tag">Digital Production</span> [cite: 6]
+        [cite_start]<span class="skills-tag">Reporting</span> [cite: 7]
+        [cite_start]<span class="skills-tag">Storytelling</span> [cite: 8]
+        [cite_start]<span class="skills-tag">Content Creation</span> [cite: 50]
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2026 Gurjot Singh. Built with HTML/CSS for GitHub Pages.</p>
+</footer>
+
+</body>
+</html>
